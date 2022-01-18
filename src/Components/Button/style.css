@@ -1,0 +1,22 @@
+.button{
+  width: 10.000em;
+  height: 2.875em;
+  background: var(--purple);
+  color: #FFFFFF;
+  border-radius: 0.625em;
+  border: none;
+  cursor: pointer;
+
+  font-size: 1.000em;
+  z-index: 99;
+}
+
+.outlined{
+  background: #ffffff;
+  color: var(--purple);
+  border: 0.063em solid var(--purple);
+}
+
+.button:hover{
+  filter: brightness(0.9);
+}

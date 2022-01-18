@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.countdown {
+  text-align: center;
+  align-items: center;
+}
+
+.title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.250em;
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+
+  color: var(--purple);
+}
+
+.description {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.938em;
+  line-height: 1.313em;
+  color: var(--text-color);
+}
+
+.top img,
+.bottom img {
+  position: absolute;
+  width: 100vw;
+  left: 0;
+}
+
+.top img {
+  top: 0;
+}
+
+.bottom img {
+  bottom: 0;
+}
+
+.imageRocket {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+}
+
+.imageRocket img{ 
+  width: 90%;
+  height:90%;
+}
+
+@media (max-width: 1163px)
+{
+  .imageRocket
+   {
+    display: none;
+   }
+}
